@@ -1,0 +1,1767 @@
+Dependencies for Project 'MyDrone', Target 'MyDrone': (DO NOT MODIFY !)
+F (..\APP\rc_proc.c)(0x581AFD17)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\rc_proc.o --omf_browse .\objects\rc_proc.crf --depend .\objects\rc_proc.d)
+I (..\APP\rc_proc.h)(0x581AFBD6)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+I (..\BSP\tim3_capture.h)(0x581C65B0)
+I (..\UCOSIII\uCOS_CONFIG\includes.h)(0x5469F03F)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+I (..\UCOSIII\uC-LIB\lib_math.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\app_cfg.h)(0x54EECEDD)
+I (..\UCOSIII\UCOS_BSP\bsp.h)(0x544B6ECA)
+F (..\APP\rc_proc.h)(0x581AFBD6)()
+F (..\APP\MPU6050.c)(0x5819E5BA)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\mpu6050.o --omf_browse .\objects\mpu6050.crf --depend .\objects\mpu6050.d)
+I (..\APP\MPU6050.h)(0x5819E5CB)
+I (..\BSP\I2Cdev.h)(0x57FA64DB)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+I (..\BSP\head.h)(0x57FA64CF)
+I (..\BSP\my_delay.h)(0x57FA7246)
+F (..\APP\MPU6050.h)(0x5819E5CB)()
+F (..\APP\HMC5883L.c)(0x5857AA11)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\hmc5883l.o --omf_browse .\objects\hmc5883l.crf --depend .\objects\hmc5883l.d)
+I (..\APP\HMC5883L.h)(0x581D765F)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+I (..\BSP\I2Cdev.h)(0x57FA64DB)
+I (..\BSP\head.h)(0x57FA64CF)
+I (..\BSP\my_delay.h)(0x57FA7246)
+F (..\APP\HMC5883L.h)(0x581D765F)()
+F (..\APP\ultrasonic.c)(0x57FC4D41)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\ultrasonic.o --omf_browse .\objects\ultrasonic.crf --depend .\objects\ultrasonic.d)
+I (..\APP\ultrasonic.h)(0x581D768F)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+I (..\UCOSIII\uCOS_CONFIG\includes.h)(0x5469F03F)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+I (..\UCOSIII\uC-LIB\lib_math.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\app_cfg.h)(0x54EECEDD)
+I (..\UCOSIII\UCOS_BSP\bsp.h)(0x544B6ECA)
+I (..\BSP\my_delay.h)(0x57FA7246)
+F (..\APP\ultrasonic.h)(0x581D768F)()
+F (..\APP\imu.c)(0x58566D7C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\imu.o --omf_browse .\objects\imu.crf --depend .\objects\imu.d)
+I (..\APP\imu.h)(0x5801E54C)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+I (..\APP\mymath.h)(0x55FFF548)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\UCOSIII\uCOS_CONFIG\includes.h)(0x5469F03F)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+I (..\UCOSIII\uC-LIB\lib_math.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\app_cfg.h)(0x54EECEDD)
+I (..\UCOSIII\UCOS_BSP\bsp.h)(0x544B6ECA)
+F (..\APP\imu.h)(0x5801E54C)()
+F (..\APP\mymath.c)(0x55FFF548)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\mymath.o --omf_browse .\objects\mymath.crf --depend .\objects\mymath.d)
+I (..\APP\mymath.h)(0x55FFF548)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\APP\mymath.h)(0x55FFF548)()
+F (..\APP\application.c)(0x584CDD90)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\application.o --omf_browse .\objects\application.crf --depend .\objects\application.d)
+I (..\APP\application.h)(0x584CDCDD)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+I (..\UCOSIII\uCOS_CONFIG\includes.h)(0x5469F03F)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+I (..\UCOSIII\uC-LIB\lib_math.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\app_cfg.h)(0x54EECEDD)
+I (..\UCOSIII\UCOS_BSP\bsp.h)(0x544B6ECA)
+I (..\BSP\main.h)(0x583C3007)
+I (..\BSP\systim.h)(0x57F93455)
+I (..\UCOSIII\uCOS_CONFIG\os_app_hooks.h)(0x54589261)
+I (..\BSP\tim3_capture.h)(0x581C65B0)
+I (..\APP\rc_proc.h)(0x581AFBD6)
+I (..\BSP\usart2.h)(0x58441B0F)
+I (..\BSP\tim1_pwm_out.h)(0x57FA4AAA)
+I (..\APP\MPU6050.h)(0x5819E5CB)
+I (..\BSP\I2Cdev.h)(0x57FA64DB)
+I (..\BSP\head.h)(0x57FA64CF)
+I (..\APP\HMC5883L.h)(0x581D765F)
+I (..\APP\ultrasonic.h)(0x581D768F)
+I (..\APP\imu.h)(0x5801E54C)
+I (..\APP\mymath.h)(0x55FFF548)
+I (..\APP\control.h)(0x58664B24)
+I (..\BSP\tim2.h)(0x581AAD81)
+I (..\APP\transfer.h)(0x58497A2B)
+F (..\APP\application.h)(0x584CDCDD)()
+F (..\APP\control.c)(0x58664C40)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\control.o --omf_browse .\objects\control.crf --depend .\objects\control.d)
+I (..\APP\control.h)(0x58664B24)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+I (..\BSP\tim3_capture.h)(0x581C65B0)
+I (..\UCOSIII\uCOS_CONFIG\includes.h)(0x5469F03F)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+I (..\UCOSIII\uC-LIB\lib_math.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\app_cfg.h)(0x54EECEDD)
+I (..\UCOSIII\UCOS_BSP\bsp.h)(0x544B6ECA)
+I (..\APP\mymath.h)(0x55FFF548)
+F (..\APP\control.h)(0x58664B24)()
+F (..\APP\transfer.c)(0x58497967)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\transfer.o --omf_browse .\objects\transfer.crf --depend .\objects\transfer.d)
+I (..\APP\transfer.h)(0x58497A2B)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\BSP\systim.c)(0x5842E0D4)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\systim.o --omf_browse .\objects\systim.crf --depend .\objects\systim.d)
+I (..\BSP\systim.h)(0x57F93455)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+I (..\UCOSIII\uCOS_CONFIG\includes.h)(0x5469F03F)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+I (..\UCOSIII\uC-LIB\lib_math.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\app_cfg.h)(0x54EECEDD)
+I (..\UCOSIII\UCOS_BSP\bsp.h)(0x544B6ECA)
+F (..\BSP\systim.h)(0x57F93455)()
+F (..\BSP\tim3_capture.c)(0x581AFD19)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\tim3_capture.o --omf_browse .\objects\tim3_capture.crf --depend .\objects\tim3_capture.d)
+I (..\BSP\tim3_capture.h)(0x581C65B0)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+I (..\UCOSIII\uCOS_CONFIG\includes.h)(0x5469F03F)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+I (..\UCOSIII\uC-LIB\lib_math.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\app_cfg.h)(0x54EECEDD)
+I (..\UCOSIII\UCOS_BSP\bsp.h)(0x544B6ECA)
+F (..\BSP\tim3_capture.h)(0x581C65B0)()
+F (..\BSP\usart2.c)(0x5844259E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\usart2.o --omf_browse .\objects\usart2.crf --depend .\objects\usart2.d)
+I (..\BSP\usart2.h)(0x58441B0F)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\UCOSIII\uCOS_CONFIG\includes.h)(0x5469F03F)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+I (..\UCOSIII\uC-LIB\lib_math.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\app_cfg.h)(0x54EECEDD)
+I (..\UCOSIII\UCOS_BSP\bsp.h)(0x544B6ECA)
+F (..\BSP\usart2.h)(0x58441B0F)()
+F (..\BSP\tim1_pwm_out.c)(0x584FFF85)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\tim1_pwm_out.o --omf_browse .\objects\tim1_pwm_out.crf --depend .\objects\tim1_pwm_out.d)
+I (..\BSP\tim1_pwm_out.h)(0x57FA4AAA)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\BSP\tim1_pwm_out.h)(0x57FA4AAA)()
+F (..\BSP\I2Cdev.c)(0x57FA72E7)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\i2cdev.o --omf_browse .\objects\i2cdev.crf --depend .\objects\i2cdev.d)
+I (..\BSP\I2Cdev.h)(0x57FA64DB)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+I (..\BSP\head.h)(0x57FA64CF)
+I (..\BSP\my_delay.h)(0x57FA7246)
+F (..\BSP\I2Cdev.h)(0x57FA64DB)()
+F (..\BSP\head.h)(0x57FA64CF)()
+F (..\BSP\my_delay.c)(0x57FA7254)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\my_delay.o --omf_browse .\objects\my_delay.crf --depend .\objects\my_delay.d)
+I (..\BSP\my_delay.h)(0x57FA7246)
+F (..\BSP\my_delay.h)(0x57FA7246)()
+F (..\BSP\hard.c)(0x58664C51)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\hard.o --omf_browse .\objects\hard.crf --depend .\objects\hard.d)
+I (..\BSP\hard.h)(0x5842E11A)
+I (..\BSP\main.h)(0x583C3007)
+I (..\BSP\systim.h)(0x57F93455)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+I (..\UCOSIII\uCOS_CONFIG\includes.h)(0x5469F03F)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+I (..\UCOSIII\uC-LIB\lib_math.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\app_cfg.h)(0x54EECEDD)
+I (..\UCOSIII\UCOS_BSP\bsp.h)(0x544B6ECA)
+I (..\UCOSIII\uCOS_CONFIG\os_app_hooks.h)(0x54589261)
+I (..\BSP\tim3_capture.h)(0x581C65B0)
+I (..\APP\rc_proc.h)(0x581AFBD6)
+I (..\BSP\usart2.h)(0x58441B0F)
+I (..\BSP\tim1_pwm_out.h)(0x57FA4AAA)
+I (..\APP\MPU6050.h)(0x5819E5CB)
+I (..\BSP\I2Cdev.h)(0x57FA64DB)
+I (..\BSP\head.h)(0x57FA64CF)
+I (..\APP\HMC5883L.h)(0x581D765F)
+I (..\APP\ultrasonic.h)(0x581D768F)
+I (..\APP\imu.h)(0x5801E54C)
+I (..\APP\mymath.h)(0x55FFF548)
+I (..\APP\control.h)(0x58664B24)
+I (..\BSP\tim2.h)(0x581AAD81)
+I (..\APP\transfer.h)(0x58497A2B)
+F (..\BSP\hard.h)(0x5842E11A)()
+F (..\BSP\tim2.c)(0x581DD74B)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\tim2.o --omf_browse .\objects\tim2.crf --depend .\objects\tim2.d)
+I (..\BSP\tim2.h)(0x581AAD81)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+I (..\UCOSIII\uCOS_CONFIG\includes.h)(0x5469F03F)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+I (..\UCOSIII\uC-LIB\lib_math.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\app_cfg.h)(0x54EECEDD)
+I (..\UCOSIII\UCOS_BSP\bsp.h)(0x544B6ECA)
+F (..\BSP\tim2.h)(0x581AAD81)()
+F (.\main.c)(0x5857AA04)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\BSP\systim.h)(0x57F93455)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+I (..\UCOSIII\uCOS_CONFIG\includes.h)(0x5469F03F)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+I (..\UCOSIII\uC-LIB\lib_math.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\app_cfg.h)(0x54EECEDD)
+I (..\UCOSIII\UCOS_BSP\bsp.h)(0x544B6ECA)
+I (..\UCOSIII\uCOS_CONFIG\os_app_hooks.h)(0x54589261)
+I (..\BSP\tim3_capture.h)(0x581C65B0)
+I (..\APP\rc_proc.h)(0x581AFBD6)
+I (..\BSP\usart2.h)(0x58441B0F)
+I (..\BSP\tim1_pwm_out.h)(0x57FA4AAA)
+I (..\APP\MPU6050.h)(0x5819E5CB)
+I (..\BSP\I2Cdev.h)(0x57FA64DB)
+I (..\BSP\head.h)(0x57FA64CF)
+I (..\APP\HMC5883L.h)(0x581D765F)
+I (..\APP\ultrasonic.h)(0x581D768F)
+I (..\APP\imu.h)(0x5801E54C)
+I (..\APP\mymath.h)(0x55FFF548)
+I (..\BSP\hard.h)(0x5842E11A)
+F (.\stm32f4xx_it.c)(0x57F935AE)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\stm32f4xx_it.o --omf_browse .\objects\stm32f4xx_it.crf --depend .\objects\stm32f4xx_it.d)
+I (stm32f4xx_it.h)(0x53DBB856)
+I (stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (system_stm32f4xx.h)(0x53DBA499)
+I (stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (.\system_stm32f4xx.c)(0x53DBB42F)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (system_stm32f4xx.h)(0x53DBA499)
+I (stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\CORE\startup_stm32f411xe.s)(0x53DBBBFB)(--cpu Cortex-M4.fp -g --apcs=interwork -I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F411xE SETA 1"--list .\listings\startup_stm32f411xe.lst --xref -o .\objects\startup_stm32f411xe.o --depend .\objects\startup_stm32f411xe.d)
+F (..\FWLIB\src\misc.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\FWLIB\src\stm32f4xx_crc.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\stm32f4xx_crc.o --omf_browse .\objects\stm32f4xx_crc.crf --depend .\objects\stm32f4xx_crc.d)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\FWLIB\src\stm32f4xx_dbgmcu.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\stm32f4xx_dbgmcu.o --omf_browse .\objects\stm32f4xx_dbgmcu.crf --depend .\objects\stm32f4xx_dbgmcu.d)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\FWLIB\src\stm32f4xx_dma.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\stm32f4xx_dma.o --omf_browse .\objects\stm32f4xx_dma.crf --depend .\objects\stm32f4xx_dma.d)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\FWLIB\src\stm32f4xx_exti.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\stm32f4xx_exti.o --omf_browse .\objects\stm32f4xx_exti.crf --depend .\objects\stm32f4xx_exti.d)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\FWLIB\src\stm32f4xx_flash.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\stm32f4xx_flash.o --omf_browse .\objects\stm32f4xx_flash.crf --depend .\objects\stm32f4xx_flash.d)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\FWLIB\src\stm32f4xx_flash_ramfunc.c)(0x53DF9330)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\stm32f4xx_flash_ramfunc.o --omf_browse .\objects\stm32f4xx_flash_ramfunc.crf --depend .\objects\stm32f4xx_flash_ramfunc.d)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+F (..\FWLIB\src\stm32f4xx_gpio.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\stm32f4xx_gpio.o --omf_browse .\objects\stm32f4xx_gpio.crf --depend .\objects\stm32f4xx_gpio.d)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\FWLIB\src\stm32f4xx_iwdg.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\stm32f4xx_iwdg.o --omf_browse .\objects\stm32f4xx_iwdg.crf --depend .\objects\stm32f4xx_iwdg.d)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\FWLIB\src\stm32f4xx_rcc.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\stm32f4xx_rcc.o --omf_browse .\objects\stm32f4xx_rcc.crf --depend .\objects\stm32f4xx_rcc.d)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\FWLIB\src\stm32f4xx_rtc.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\stm32f4xx_rtc.o --omf_browse .\objects\stm32f4xx_rtc.crf --depend .\objects\stm32f4xx_rtc.d)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\FWLIB\src\stm32f4xx_syscfg.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\stm32f4xx_syscfg.o --omf_browse .\objects\stm32f4xx_syscfg.crf --depend .\objects\stm32f4xx_syscfg.d)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\FWLIB\src\stm32f4xx_tim.c)(0x581AFD1B)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\stm32f4xx_tim.o --omf_browse .\objects\stm32f4xx_tim.crf --depend .\objects\stm32f4xx_tim.d)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\FWLIB\src\stm32f4xx_usart.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\stm32f4xx_usart.o --omf_browse .\objects\stm32f4xx_usart.crf --depend .\objects\stm32f4xx_usart.d)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\FWLIB\src\stm32f4xx_wwdg.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\stm32f4xx_wwdg.o --omf_browse .\objects\stm32f4xx_wwdg.crf --depend .\objects\stm32f4xx_wwdg.d)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\UCOSIII\UCOS_BSP\bsp.c)(0x544B7624)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\bsp.o --omf_browse .\objects\bsp.crf --depend .\objects\bsp.d)
+I (..\UCOSIII\UCOS_BSP\bsp.h)(0x544B6ECA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\UCOSIII\uC-CPU\cpu_core.c)(0x523BF7D2)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\cpu_core.o --omf_browse .\objects\cpu_core.crf --depend .\objects\cpu_core.d)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+F (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu_c.c)(0x539EA9FC)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\cpu_c.o --omf_browse .\objects\cpu_c.crf --depend .\objects\cpu_c.d)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+F (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu_a.asm)(0x546F485A)(--cpu Cortex-M4.fp -g --apcs=interwork -I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F411xE SETA 1"--list .\listings\cpu_a.lst --xref -o .\objects\cpu_a.o --depend .\objects\cpu_a.d)
+F (..\UCOSIII\uC-LIB\lib_ascii.c)(0x52736048)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\lib_ascii.o --omf_browse .\objects\lib_ascii.crf --depend .\objects\lib_ascii.d)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+F (..\UCOSIII\uC-LIB\lib_math.c)(0x52736048)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\lib_math.o --omf_browse .\objects\lib_math.crf --depend .\objects\lib_math.d)
+I (..\UCOSIII\uC-LIB\lib_math.h)(0x52736048)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+F (..\UCOSIII\uC-LIB\lib_mem.c)(0x52736048)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\lib_mem.o --omf_browse .\objects\lib_mem.crf --depend .\objects\lib_mem.d)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+F (..\UCOSIII\uC-LIB\lib_str.c)(0x52736048)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\lib_str.o --omf_browse .\objects\lib_str.crf --depend .\objects\lib_str.d)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+F (..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView\lib_mem_a.asm)(0x52736048)(--cpu Cortex-M4.fp -g --apcs=interwork -I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F411xE SETA 1"--list .\listings\lib_mem_a.lst --xref -o .\objects\lib_mem_a.o --depend .\objects\lib_mem_a.d)
+F (..\UCOSIII\uCOS-III\Source\os_cfg_app.c)(0x545B1AF8)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_cfg_app.o --omf_browse .\objects\os_cfg_app.crf --depend .\objects\os_cfg_app.d)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg_app.h)(0x57F93818)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+F (..\UCOSIII\uCOS-III\Source\os_core.c)(0x55485096)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_core.o --omf_browse .\objects\os_core.crf --depend .\objects\os_core.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+F (..\UCOSIII\uCOS-III\Source\os_dbg.c)(0x4F47150C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_dbg.o --omf_browse .\objects\os_dbg.crf --depend .\objects\os_dbg.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+F (..\UCOSIII\uCOS-III\Source\os_flag.c)(0x4F47150C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_flag.o --omf_browse .\objects\os_flag.crf --depend .\objects\os_flag.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+F (..\UCOSIII\uCOS-III\Source\os_int.c)(0x545B223C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_int.o --omf_browse .\objects\os_int.crf --depend .\objects\os_int.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+F (..\UCOSIII\uCOS-III\Source\os_mem.c)(0x4F47150E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_mem.o --omf_browse .\objects\os_mem.crf --depend .\objects\os_mem.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+F (..\UCOSIII\uCOS-III\Source\os_msg.c)(0x4F47150A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_msg.o --omf_browse .\objects\os_msg.crf --depend .\objects\os_msg.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+F (..\UCOSIII\uCOS-III\Source\os_mutex.c)(0x4F47150C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_mutex.o --omf_browse .\objects\os_mutex.crf --depend .\objects\os_mutex.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+F (..\UCOSIII\uCOS-III\Source\os_pend_multi.c)(0x4F47150A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_pend_multi.o --omf_browse .\objects\os_pend_multi.crf --depend .\objects\os_pend_multi.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+F (..\UCOSIII\uCOS-III\Source\os_prio.c)(0x546F4B66)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_prio.o --omf_browse .\objects\os_prio.crf --depend .\objects\os_prio.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+F (..\UCOSIII\uCOS-III\Source\os_q.c)(0x4F47150E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_q.o --omf_browse .\objects\os_q.crf --depend .\objects\os_q.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+F (..\UCOSIII\uCOS-III\Source\os_sem.c)(0x4F47150A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_sem.o --omf_browse .\objects\os_sem.crf --depend .\objects\os_sem.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+F (..\UCOSIII\uCOS-III\Source\os_stat.c)(0x5458E5C9)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_stat.o --omf_browse .\objects\os_stat.crf --depend .\objects\os_stat.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+F (..\UCOSIII\uCOS-III\Source\os_task.c)(0x5459D69B)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_task.o --omf_browse .\objects\os_task.crf --depend .\objects\os_task.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+F (..\UCOSIII\uCOS-III\Source\os_tick.c)(0x5458DEAF)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_tick.o --omf_browse .\objects\os_tick.crf --depend .\objects\os_tick.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+F (..\UCOSIII\uCOS-III\Source\os_time.c)(0x5458DB7E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_time.o --omf_browse .\objects\os_time.crf --depend .\objects\os_time.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+F (..\UCOSIII\uCOS-III\Source\os_tmr.c)(0x4F471510)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_tmr.o --omf_browse .\objects\os_tmr.crf --depend .\objects\os_tmr.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+F (..\UCOSIII\uCOS-III\Source\os_var.c)(0x4F47150A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_var.o --omf_browse .\objects\os_var.crf --depend .\objects\os_var.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+F (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)()
+F (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_a.asm)(0x5469BD00)(--cpu Cortex-M4.fp -g --apcs=interwork -I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F411xE SETA 1"--list .\listings\os_cpu_a.lst --xref -o .\objects\os_cpu_a.o --depend .\objects\os_cpu_a.d)
+F (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_c.c)(0x545B2056)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_cpu_c.o --omf_browse .\objects\os_cpu_c.crf --depend .\objects\os_cpu_c.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+I (..\UCOSIII\uCOS_CONFIG\includes.h)(0x5469F03F)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\UCOSIII\uC-LIB\lib_math.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\app_cfg.h)(0x54EECEDD)
+I (..\UCOSIII\UCOS_BSP\bsp.h)(0x544B6ECA)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x57F92034)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x581AFD1B)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9330)
+F (..\UCOSIII\uCOS_CONFIG\app_cfg.h)(0x54EECEDD)()
+F (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)()
+F (..\UCOSIII\uCOS_CONFIG\includes.h)(0x5469F03F)()
+F (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)()
+F (..\UCOSIII\uCOS_CONFIG\os_app_hooks.c)(0x55489F2D)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\CORE -I..\USER -I..\FWLIB\inc -I..\BSP -I..\UCOSIII\uC-LIB -I..\UCOSIII\uC-CPU -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView-I "F:\MyProject\四轴飞行器项目\0.四轴飞行器代码重构\代码记录\12-19-2 尝试对限幅进行整定 - 无定高，参数固定式输入\Drone\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F411xE -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1" -DUSE_HSE_BYPASS-o .\objects\os_app_hooks.o --omf_browse .\objects\os_app_hooks.crf --depend .\objects\os_app_hooks.d)
+I (..\UCOSIII\uCOS-III\Source\os.h)(0x556D773E)
+I (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)
+I (..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x544F0A99)
+I (..\UCOSIII\uC-CPU\cpu_def.h)(0x523BF7D2)
+I (..\UCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x544BA771)
+I (..\UCOSIII\uC-CPU\cpu_core.h)(0x523BF7D2)
+I (..\UCOSIII\uC-LIB\lib_def.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_mem.h)(0x52736048)
+I (..\UCOSIII\uCOS_CONFIG\lib_cfg.h)(0x5458922F)
+I (..\UCOSIII\uC-LIB\lib_str.h)(0x52736048)
+I (..\UCOSIII\uC-LIB\lib_ascii.h)(0x52736048)
+I (..\UCOSIII\uCOS-III\Source\os_type.h)(0x4F47150C)
+I (..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x5459E69C)
+I (..\UCOSIII\uCOS_CONFIG\os_app_hooks.h)(0x54589261)
+F (..\UCOSIII\uCOS_CONFIG\os_app_hooks.h)(0x54589261)()
+F (..\UCOSIII\uCOS_CONFIG\os_cfg.h)(0x583D2070)()
+F (..\UCOSIII\uCOS_CONFIG\os_cfg_app.h)(0x57F93818)()
